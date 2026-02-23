@@ -2,30 +2,30 @@
 
 ##  1. Структура Репозитория
 
-├── app.py
-├── parse_data.py
-├── train_model.py
-├── README.md
-├── data/
-│ ├── hh.csv
-│ ├── x_data.npy
-│ └── y_data.npy
-├── resources/
-│ ├── model.pkl
-│ ├── scaler.pkl
-│ └── vectorizer.pkl
-├── pipeline/
-│ ├── init.py
-│ ├── base.py
-│ ├── stage_load.py
-│ ├── stage_features.py
-│ ├── stage_transform.py
-│ ├── stage_encode.py
-│ └── stage_export.py
-└── utils/
-├── init.py
-├── parsers.py
-├── helpers.py      
+* ├── app.py            
+* ├── parse_data.py        
+* ├── train_model.py     
+* ├── README.md         
+* ├── data/
+* │  ├── hh.csv        
+* │  ├── x_data.npy       
+* │  └── y_data.npy       
+* ├── resources/
+* │  ├── model.pkl        
+* │  ├── scaler.pkl       
+* │  └── vectorizer.pkl     
+* ├── pipeline/          
+* │  ├── __init__.py       
+* │  ├── base.py         
+* │  ├── stage_load.py      
+* │  ├── stage_features.py    
+* │  ├── stage_transform.py   
+* │  ├── stage_encode.py     
+* │  └── stage_export.py     
+* └── utils/
+*   ├── __init__.py       
+*   ├── parsers.py       
+*   ├── helpers.py         
 
 ##  Порядок Запуска Проекта
 1.  Шаг 1: Парсинг данных (parse_data.py)
